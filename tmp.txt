@@ -1,3 +1,7 @@
 foo
 foobar
+<<<<<<< HEAD
 change two
+=======
+change one
+>>>>>>> feature2
