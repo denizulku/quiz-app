@@ -1,6 +1,91 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  background-color: hotpink;
+  background-color: rgb(238, 238, 238);
+  margin: 20px;
+}
+
+h1 {
+  display: flex;
+  background-color: rgb(100, 136, 255);
+  justify-content: center;
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 10px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 154, 115);
+}
+
+/* .card__bookmark--select {
+  padding: 10px;
+  margin-top: -20px;
+  margin-bottom: -40px;
+} */
+
+.card__question {
+  font-family: "Trebuchet MS", sans-serif;
+  align-items: center;
+}
+
+.card__button {
+  padding: 10px;
+  align-items: center;
+  background-color: linen;
+  box-shadow: 5px 5px rgb(111, 128, 144, 0.5);
+  border: none;
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.card__tag {
+  list-style: none;
+  border-radius: 5px;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 50%;
+  font-family: "Lucida Sans", sans-serif;
+  background-color: whitesmoke;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: hotpink;
+  color: white;
+  z-index: 100;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
 }
