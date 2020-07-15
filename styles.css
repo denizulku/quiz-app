@@ -73,10 +73,10 @@ textarea {
 
 footer {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
-  background: hotpink;
+  background: rgb(100, 136, 255);
   color: white;
   z-index: 100;
 }
@@ -84,8 +84,13 @@ footer {
 .footer__nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 10px;
   margin: 5px;
   text-decoration: none;
+}
+
+.footer__nav img {
+  width: 25%;
+  height: 25%;
 }
