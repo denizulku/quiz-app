@@ -1,0 +1,14 @@
+.footer__nav {
+  /* align-items: flex-end; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.footer__nav--img {
+  max-width: 50px;
+  max-height: 50px;
+}
