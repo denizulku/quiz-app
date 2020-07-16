@@ -51,7 +51,7 @@ section {
   border-radius: 5px;
   margin-bottom: 10px;
   background-color: rgb(255, 154, 115);
-  box-shadow: 5px 5px rgb(111, 128, 144);
+  box-shadow: 5px 5px rgba(111, 128, 144, 0.2);
 }
 
 /* .card__bookmark--select {
@@ -78,7 +78,7 @@ section {
   padding: 10px;
   margin-top: 10px;
   background-color: linen;
-  box-shadow: 5px 5px rgb(111, 128, 144);
+  box-shadow: 5px 5px rgba(111, 128, 144, 0.2);
   border: none;
 }
 
@@ -126,26 +126,54 @@ section {
 }
 
 .profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30px;
+  grid-gap: 5px;
+  align-items: center;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: rgb(255, 154, 115);
+  border-radius: 5px;
+  max-height: 80px;
 }
 
 .profile__about {
+  display: flex;
+  justify-content: center;
   padding: 10px;
+  align-items: center;
   /* margin: 20px; */
   background-color: #999898;
   border-radius: 2px;
   font-size: 80%;
 }
 
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .profile__button {
   display: flex;
+  justify-content: center;
   padding: 10px;
   align-items: center;
+  font-size: medium;
   color: white;
   background-color: rgb(58, 58, 58);
   border: none;
+}
+
+.profile__skills {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  font-family: "Trebuchet MS", sans-serif;
+  background-color: linen;
+  border-radius: 5px;
+  max-height: 80px;
 }
 
 textarea {

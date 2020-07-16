@@ -1,0 +1,22 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &__about {
+    padding: 10px;
+    /* margin: 20px; */
+    background-color: #999898;
+    border-radius: 2px;
+    font-size: 80%;
+
+    &__button {
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      color: white;
+      background-color: rgb(58, 58, 58);
+      border: none;
+    }
+  }
+}
