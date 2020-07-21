@@ -5,6 +5,7 @@
 body,
 html {
   margin: 0;
+  padding-top: 10%;
   padding-bottom: 20%;
   background-attachment: fixed;
   background-image: repeating-linear-gradient(
@@ -14,53 +15,54 @@ html {
     rgb(238, 238, 238) 9px,
     rgb(238, 238, 238) 12px
   );
+}
 
-  header {
-    display: flex;
-    background-color: rgb(100, 136, 255);
-    top: 0;
-    left: 0;
-    right: 0;
-    justify-content: center;
-    font-family: "Trebuchet MS", sans-serif;
-    /* padding: 10px; */
-  }
+header {
+  display: flex;
+  position: fixed;
+  background-color: rgb(100, 136, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  font-family: "Trebuchet MS", sans-serif;
+  z-index: 100px;
+}
 
-  h1 {
-    font-style: bold;
-    color: white;
-  }
+h1 {
+  font-style: bold;
+  color: white;
+}
 
-  h2 {
-    font-size: larger;
-    color: black;
-  }
+h2 {
+  font-size: larger;
+  color: black;
+}
 
-  p {
-    font-family: "Arial", sans-serif;
-    font-size: medium;
-    color: white;
-  }
+p {
+  font-family: "Arial", sans-serif;
+  font-size: medium;
+  color: white;
+}
 
-  section {
-    padding: 20%;
-    margin: 20px;
-  }
-  textarea {
-    display: block;
-    align-items: center;
-    width: 23em;
-    height: 10em;
-  }
+section {
+  padding: 20%;
+  margin: 20px;
+}
+textarea {
+  display: block;
+  align-items: center;
+  width: 23em;
+  height: 10em;
+}
 
-  footer {
-    position: fixed;
-    max-height: 64px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgb(100, 136, 255);
-    color: rgb(255, 255, 255);
-    /* z-index: 100; */
-  }
+footer {
+  position: fixed;
+  max-height: 64px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(100, 136, 255);
+  color: rgb(255, 255, 255);
+  /* z-index: 100; */
 }
