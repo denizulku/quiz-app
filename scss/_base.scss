@@ -17,18 +17,6 @@ html {
   );
 }
 
-header {
-  display: flex;
-  position: fixed;
-  background-color: rgb(100, 136, 255);
-  top: 0;
-  left: 0;
-  right: 0;
-  justify-content: center;
-  font-family: "Trebuchet MS", sans-serif;
-  z-index: 100px;
-}
-
 h1 {
   font-style: bold;
   color: white;
@@ -54,15 +42,4 @@ textarea {
   align-items: center;
   width: 23em;
   height: 10em;
-}
-
-footer {
-  position: fixed;
-  max-height: 64px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgb(100, 136, 255);
-  color: rgb(255, 255, 255);
-  /* z-index: 100; */
 }
