@@ -1,24 +1,22 @@
-.profile {
+.profile__about {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 10px;
   align-items: center;
-
-  &__about {
-    padding: 10px;
-    /* margin: 20px; */
-    background-color: #999898;
-    border-radius: 2px;
-    font-size: 80%;
-  }
+  background-color: #999898;
+  border-radius: 2px;
+  font-size: 80%;
 }
 
-.profile__button {
+.profile__skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  padding: 10px;
+  background-color: linen;
+}
+
+.h2__profile {
   display: flex;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: rgb(58, 58, 58);
-  border: none;
+  justify-content: space-around;
 }
