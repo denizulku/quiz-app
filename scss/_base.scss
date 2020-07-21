@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-attachment: fixed;
+  background-image: repeating-linear-gradient(
+    60deg,
+    white,
+    white 8px,
+    rgb(238, 238, 238) 9px,
+    rgb(238, 238, 238) 12px
+  );
+}
+
+h1 {
+  font-style: bold;
+  color: white;
+}
+
+h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  align-items: center;
+  font-size: larger;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+section {
+  padding: 20%;
+  margin: 20px;
+}
+textarea {
+  display: block;
+  align-items: center;
+  width: 23em;
+  height: 10em;
+  background-color: linen;
+  opacity: 50%;
+  border: none;
+}
+
+input {
+  background-color: linen;
+  border: none;
+  height: 3em;
+  opacity: 50%;
+}

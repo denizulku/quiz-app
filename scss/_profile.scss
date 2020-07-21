@@ -1,0 +1,22 @@
+.profile__about {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  background-color: #999898;
+  border-radius: 2px;
+  font-size: 80%;
+}
+
+.profile__skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  padding: 10px;
+  background-color: linen;
+}
+
+.h2__profile {
+  display: flex;
+  justify-content: space-around;
+}
