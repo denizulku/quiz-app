@@ -23,8 +23,9 @@ h1 {
 }
 
 h2 {
+  font-family: "Trebuchet MS", sans-serif;
+  align-items: center;
   font-size: larger;
-  color: black;
 }
 
 p {
@@ -42,4 +43,14 @@ textarea {
   align-items: center;
   width: 23em;
   height: 10em;
+  background-color: linen;
+  opacity: 50%;
+  border: none;
+}
+
+input {
+  background-color: linen;
+  border: none;
+  height: 3em;
+  opacity: 50%;
 }
